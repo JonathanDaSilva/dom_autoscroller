@@ -47,5 +47,27 @@
     "dist",
     "LICENSE",
     "index.js"
-  ]
+  ],
+  "jspm": {
+    "registry": "npm",
+    "dependencies": {
+      "animation-frame-polyfill": "^1.0.0",
+      "create-point-cb": "^1.0.0",
+      "dom-mousemove-dispatcher": "^1.0.1",
+      "dom-plane": "^1.0.1",
+      "dom-set": "github:JonathanDaSilva/dom_set@^1.0.1",
+      "type-func": "^1.0.1"
+    },
+    "devDependencies": {
+      "babel-preset-es2015-rollup": "^1.2.0",
+      "dragula": "^3.7.2",
+      "minifyify": "^7.3.3",
+      "precommit-hook": "^3.0.0",
+      "rollup-plugin-babel": "^2.6.1",
+      "rollup-plugin-commonjs": "^5.0.5",
+      "rollup-plugin-node-resolve": "^2.0.0",
+      "rollup-plugin-uglify": "^1.0.1",
+      "uglify-js": "^2.7.4"
+    },
+  }
 }
