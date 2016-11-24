@@ -55,7 +55,7 @@
       "create-point-cb": "^1.0.0",
       "dom-mousemove-dispatcher": "^1.0.1",
       "dom-plane": "^1.0.1",
-      "dom-set": "github:JonathanDaSilva/dom_set@^1.0.1",
+      "dom-set": "github:JonathanDaSilva/dom_set@master",
       "type-func": "^1.0.1"
     },
     "devDependencies": {
